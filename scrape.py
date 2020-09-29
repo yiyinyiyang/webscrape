@@ -17,6 +17,22 @@
 #     new_title =soup.find_all("article", class_="excerpt excerpt-"+str（i）)
 
 
+#学习总结 ：參考：https://blog.csdn.net/cvper/article/details/80073007
+# 1. vscode缩进快捷键：
+# 选中文本；
+# Ctrl  +  [      和   Ctrl  +  ]     实现文本的向左移动或者向右移动；
+# 2. VScode快速注释，取消注释（暂时隔离代码） 參考：https://blog.csdn.net/weixin_43538265/article/details/84978566
+# 选中代代码，然后
+# 注释使用 CTRL+K，CTRL+C 
+# 取消注释使用CTRL+K，CTRL+U
+# 3. 查詢 my user agent
+# 參考：http://my-user-agent.com/
+
+# 4. 網絡爬蟲： 先安裝 requests 和 BeautifulSoup  參考： https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+
+
+
+
 
 import requests
 from bs4 import BeautifulSoup
