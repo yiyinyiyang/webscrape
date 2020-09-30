@@ -26,7 +26,7 @@ from email.utils import formataddr
 # 发件人邮箱账号
 my_sender='fangsheng@yangyanghub.onexmail.com'  
 # user登录邮箱的用户名，password登录邮箱的密码（授权码，即客户端密码，非网页版登录密码），但用腾讯邮箱的登录密码也能登录成功  
-my_pass = 'HASXu4csYBzY2nSp' 
+my_pass = 'HASXu4csYBzY8nSp' #1982密碼為虛擬的
 # 收件人邮箱账号            
 my_user='29098663@qq.com'      
 def mail():
