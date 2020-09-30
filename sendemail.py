@@ -33,7 +33,7 @@ def mail():
     ret=True
     try:
         # 邮件内容
-        msg=MIMEText('填写邮件内容','plain','utf-8')
+        msg=MIMEText('我的心碎了','plain','utf-8')
         # 括号里的对应发件人邮箱昵称、发件人邮箱账号
         msg['From']=formataddr(["yangyanghub",my_sender])  
         # 括号里的对应收件人邮箱昵称、收件人邮箱账号
